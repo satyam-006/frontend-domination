@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        #main{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            gap: 10px;
+            grid-template-rows: 25% 25% 25% 25%;
+            grid-template-columns: 25% 25% 25% 25%;
+        }
+        #top-left{
+            background-color: orangered;
+            grid-column: 1/4;
+        }
+        #top-right{
+            background-color: yellow;
+        }
+        #center-left{
+            background-color: palegreen;
+            grid-column: 1/3;
+            grid-row: 2/4;
+        }
+        #center-right-top-left{
+            background-color: blue;
+        }
+        #center-right-top-right{
+            background-color: blue;
+        }
+        #center-right-bottom-left{
+            background-color: blue;
+        }
+        #center-right-bottom-right{
+            background-color: blue;
+        }
+        #bottom-left{
+            background-color: violet;
+            grid-column: 1/3;
+        }
+        #bottom-right{
+            background-color: violet;
+            grid-column: 3/5;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="top-left"></div>
+        <div id="top-right"></div>
+        <div id="center-left"></div>
+        <div id="center-right-top-left"></div>
+        <div id="center-right-top-right"></div>
+        <div id="center-right-bottom-left"></div>
+        <div id="center-right-bottom-right"></div>
+        <div id="bottom-left"></div>
+        <div id="bottom-right"></div>
+    </div>
+</body>
+</html>
