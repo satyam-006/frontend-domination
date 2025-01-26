@@ -78,9 +78,6 @@ html,body{
     opacity: 0;
 }
 
-.elem:nth-child(1) i{
-    opacity: 1;
-}
 
 .elem:hover i{
     opacity: 1;
