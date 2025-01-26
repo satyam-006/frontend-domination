@@ -87,7 +87,7 @@ html,body{
     width: 100%;
     height: 222px;
     /* background-color: red; */
-    background-image: url(./jacket_img.png);
+    background-image: url(./jacket_img.jpg);
     background-size: cover;
     background-position: center;
 }
